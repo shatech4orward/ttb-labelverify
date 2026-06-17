@@ -1,0 +1,9 @@
+label_file,cola_number,brand_name,class_type,alcohol_content,net_contents,name_address,country_of_origin,beverage_type
+01_OLD_TOM_DISTILLERY_bourbon_PASS.png,TTB-2024-0001,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750,"Old Tom Distillery, Bardstown, KY",,distilled_spirits
+02_SILVER_RIVER_VODKA_PASS.png,TTB-2024-0003,SILVER RIVER,American Vodka,40,1000,"Silver River Spirits LLC, Austin, TX",,distilled_spirits
+03_GLENCRAIG_SCOTCH_import_PASS.png,TTB-2024-0002,GLENCRAIG,Blended Scotch Whisky,43,750,"Atlantic Spirits Co., New York, NY",Scotland,distilled_spirits
+04_IRON_GATE_BOURBON_wrong_ABV_FAIL.png,TTB-2024-0004,IRON GATE BOURBON,Kentucky Straight Bourbon Whiskey,45,750,"Iron Gate Distillery, Louisville, KY",,distilled_spirits
+05_BLUE_MESA_GIN_warning_titlecase_FAIL.png,TTB-2024-0005,BLUE MESA,London Dry Gin,47,750,"Blue Mesa Distillery, Denver, CO",,distilled_spirits
+06_STONE_RIVER_RUM_brand_mismatch_FAIL.png,TTB-2024-0006,STONE'S RIVER,Puerto Rican Rum,40,750,"Stone's River Distillery, Nashville, TN",,distilled_spirits
+07_STONES_THROW_WHISKEY_capitalization_WARNING.png,TTB-2024-0007,STONE'S THROW WHISKEY,American Whiskey,46,750,"Stone's Throw Distillery, Portland, OR",,distilled_spirits
+08_COPPER_PEAK_TEQUILA_no_warning_FAIL.png,TTB-2024-0008,COPPER PEAK,Tequila,38,750,"Copper Peak Imports, San Antonio, TX",Mexico,distilled_spirits
