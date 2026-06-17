@@ -6,6 +6,24 @@ TTB LabelVerify allows agents to verify that a physical bottle label matches its
 
 ---
 
+## 👋 Reviewers & Evaluators — Start Here
+
+> **No software installation is required.**
+>
+> Open the link below in any web browser (Chrome, Edge, Firefox, or Safari) and the app runs immediately.
+>
+> **Live App:** [https://shatech4orward.github.io/ttb-labelverify](https://shatech4orward.github.io/ttb-labelverify)
+>
+> **Reviewer Testing Guide (PDF):** [Download TTB_LabelVerify_Reviewer_Guide.pdf](https://github.com/shatech4orward/ttb-labelverify/raw/main/docs/TTB_LabelVerify_Reviewer_Guide.pdf)
+>
+> **Test Label Images:** [Download TTB_Test_Labels.zip](https://github.com/shatech4orward/ttb-labelverify/raw/main/releases/TTB_Test_Labels.zip)
+>
+> **Sample COLA Applications:** [Download TTB_Sample_COLA_Applications.zip](https://github.com/shatech4orward/ttb-labelverify/raw/main/releases/TTB_Sample_COLA_Applications.zip)
+>
+> The Reviewer Testing Guide walks you through testing step-by-step. Download it first.
+
+---
+
 ## Live Demo
 
 **[https://shatech4orward.github.io/ttb-labelverify](https://shatech4orward.github.io/ttb-labelverify)**
@@ -98,7 +116,11 @@ All TTB compliance checks are implemented in `client/src/lib/labelVerifier.ts`. 
 
 ---
 
-## Local Setup & Run Instructions
+## Local Setup & Run Instructions *(For Developers Only)*
+
+> **Reviewers:** You do not need this section. Just open the [live app](https://shatech4orward.github.io/ttb-labelverify) in your browser.
+
+The following instructions are for developers who want to run or modify the source code locally.
 
 ### Prerequisites
 - [Node.js 18 or higher](https://nodejs.org/) — download and install if you don't have it
@@ -134,13 +156,13 @@ The production-ready files are output to `dist/public/`.
 
 ## Test Labels & Sample Data
 
-The following test files are included in the repository:
+Download the test files below before testing:
 
-| File | Location | Purpose |
+| File | Download | Purpose |
 |---|---|---|
-| 8 PNG test labels | `test_labels/` | Pre-built label images with known OCR output |
-| 3 COLA application PDFs | `sample_cola_applications/` | Matching COLA PDFs for the test labels |
-| Batch CSV template | `sample_cola_applications/TTB_Batch_Template.csv` | Pre-filled CSV for batch upload testing |
+| 8 PNG test label images | [TTB_Test_Labels.zip](https://github.com/shatech4orward/ttb-labelverify/raw/main/releases/TTB_Test_Labels.zip) | Pre-built label images with known compliance results |
+| 8 COLA application PDFs | [TTB_Sample_COLA_Applications.zip](https://github.com/shatech4orward/ttb-labelverify/raw/main/releases/TTB_Sample_COLA_Applications.zip) | Matching COLA PDFs for the test labels |
+| Reviewer Testing Guide | [TTB_LabelVerify_Reviewer_Guide.pdf](https://github.com/shatech4orward/ttb-labelverify/raw/main/docs/TTB_LabelVerify_Reviewer_Guide.pdf) | Step-by-step testing guide for reviewers |
 
 ### Test Scenarios
 | Label File | Expected Result | What It Tests |
