@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, XCircle, AlertTriangle, ScanLine, Layers, Clock, TrendingUp } from "lucide-react";
+import { CheckCircle2, XCircle, AlertTriangle, ScanLine, Layers, Clock, TrendingUp, BookOpen } from "lucide-react";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { store, Job } from "@/lib/store";
 
@@ -34,6 +34,11 @@ export default function Dashboard() {
           </Button>
           <Button asChild size="sm" variant="outline" data-testid="button-batch-upload">
             <Link href="/batch"><Layers size={14} className="mr-1.5" />Batch Upload</Link>
+          </Button>
+          <Button asChild size="sm" variant="outline" data-testid="button-reviewer-guide">
+            <a href="https://github.com/shatech4orward/ttb-labelverify/raw/main/docs/TTB_LabelVerify_Reviewer_Guide.pdf" target="_blank" rel="noopener noreferrer">
+              <BookOpen size={14} className="mr-1.5" />Reviewer Guide
+            </a>
           </Button>
         </div>
       </div>
